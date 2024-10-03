@@ -1,53 +1,71 @@
-owner	
-name	""
-description	"old validator"
-type	
-0	"validator"
-identity	
-ownership_disclosure_url	""
-casper_association_kyc_url	""
-casper_association_kyc_onchain	""
-resources	
-code_of_conduct_url	""
-terms_of_service_url	"https://casper.blocklab.space/"
-privacy_policy_url	"https://casper.blocklab.space/"
-other	
-0	
-name	"About Us"
-url	"https://casper.blocklab.space/"
-affiliated_accounts	
-0	
-public_key	"014df093cb3db1bf062b0f5328fa8e835d67334e9d1632a1fbb9af092e6b713e27"
-website	"https://casper.blocklab.space"
-email	"info@blocklab.space"
-branding	
-logo	
-png_256	"https://casper.blocklab.space/2314.png"
-png_1024	""
-svg	""
-location	
-name	"Falkenstein"
-country	"GE"
-latitude	0
-longitude	0
-social	
-keybase	""
-telegram	""
-twitter	""
-github	""
-youtube	""
-facebook	""
-medium	""
-reddit	""
-wechat	""
-nodes	
-0	
-public_key	"014df093cb3db1bf062b0f5328fa8e835d67334e9d1632a1fbb9af092e6b713e27"
-description	"This validator is running on a dedicated machine with overspac hardware specifications in Tier 3 data center, providing a high level of redundancy and reliability, with 99.982% uptime"
-location	
-name	"Bangkok"
-country	"TH"
-latitude	0
-longitude	0
-functionality	
-0	"validator"
+{
+  "owner": {
+    "name": "",
+    "description": "old validator",
+    "type": [
+      "validator"
+    ],
+    "identity": {
+      "ownership_disclosure_url": "",
+      "casper_association_kyc_url": "",
+      "casper_association_kyc_onchain": ""
+    },
+    "resources": {
+      "code_of_conduct_url": "",
+      "terms_of_service_url": "https://casper.blocklab.space",
+      "privacy_policy_url": "https://casper.blocklab.space",
+      "other": [
+        {
+          "name": "About Us",
+          "url": "https://casper.blocklab.space"
+        }
+      ]
+    },
+    "affiliated_accounts": [
+      {
+        "public_key": "014df093cb3db1bf062b0f5328fa8e835d67334e9d1632a1fbb9af092e6b713e27"
+      }
+    ],
+    "website": "https://casper.blocklab.space",
+    "email": "https://casper.blocklab.space/2314.png",
+    "branding": {
+      "logo": {
+        "png_256": "https://blocklab.space/CSPR-EUR.png",
+        "png_1024": "",
+        "svg": ""
+      }
+    },
+    "location": {
+      "name": "Falkenstein",
+      "country": "GE",
+      "latitude": 0,
+      "longitude": 0
+    },
+    "social": {
+      "keybase": "",
+      "telegram": "",
+      "twitter": "",
+      "github": "",
+      "youtube": "",
+      "facebook": "",
+      "medium": "",
+      "reddit": "",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "public_key": "014df093cb3db1bf062b0f5328fa8e835d67334e9d1632a1fbb9af092e6b713e27",
+      "description": "This validator is running on a dedicated machine with overspac hardware specifications in Tier 3 data center, providing a high level of redundancy and reliability, with 99.982% uptime",
+      "location": {
+        "name": "Bangkok",
+        "country": "TH",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "functionality": [
+        "validator"
+      ]
+    }
+  ]
+}
