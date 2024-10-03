@@ -40,13 +40,14 @@
         .casper-image {
             display: block;
             max-width: 12.5%;
-            width: 150px; /* Adjust this value as needed */
+            width: 150px;
             height: auto;
             margin: 30px auto;
         }
         .bottom-image {
             text-align: center;
             margin-top: 40px;
+            margin-bottom: 40px;
             background-color: white;
             padding: 20px;
             border-radius: 8px;
@@ -111,10 +112,6 @@
             </ul>
         </section>
 
-        <div class="bottom-image">
-            <img src="casper pic1.png" alt="Casper Network" class="casper-image">
-        </div>
-
         <section id="delegating" class="section">
             <h2>Delegating Coins</h2>
             <p>Delegating your CSPR tokens allows you to participate in network security and earn rewards. Here's how to delegate using the Casper wallet:</p>
@@ -151,6 +148,10 @@
         <a href="https://github.com/casper-network" target="_blank">GitHub</a>
         <a href="https://twitter.com/Casper_Network" target="_blank">Twitter</a>
     </footer>
+
+    <div class="bottom-image">
+        <img src="casper pic1.png" alt="Casper Network" class="casper-image">
+    </div>
 
     <script>
         async function fetchCSPRPrice() {
