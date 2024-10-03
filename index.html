@@ -16,12 +16,16 @@
             background-color: #f4f4f4;
         }
         header {
-            text-align: center;
             margin-bottom: 40px;
         }
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
         .logo {
-            max-width: 300px;
-            margin-bottom: 20px;
+            max-width: 150px;
+            margin-right: 20px;
         }
         h1, h2 {
             color: #ff3746;
@@ -34,15 +38,13 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         .casper-image {
-            max-width: 100%;
-            height: auto;
             display: block;
-            margin: 20px auto;
-            border-radius: 8px;
+            max-width: 25%;
+            height: auto;
+            margin: 30px auto;
         }
         footer {
             text-align: center;
-            margin-top: 40px;
             padding-top: 20px;
             border-top: 1px solid #ddd;
         }
@@ -61,13 +63,18 @@
             .section {
                 padding: 20px;
             }
+            .casper-image {
+                max-width: 50%;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="CasPer_Logo.png" alt="Casper Logo" class="logo">
-        <h1>Casper Staking Information</h1>
+        <div class="header-content">
+            <img src="CasPer_Logo.png" alt="Casper Logo" class="logo">
+            <h1>Casper Staking Information</h1>
+        </div>
     </header>
 
     <main>
@@ -81,8 +88,9 @@
                 <li>Developer-friendly environment with WebAssembly support</li>
                 <li>Energy-efficient proof-of-stake consensus mechanism</li>
             </ul>
-            <img src="casper pic1.png" alt="Casper Network" class="casper-image">
         </section>
+
+        <img src="casper pic1.png" alt="Casper Network" class="casper-image">
 
         <section id="delegating" class="section">
             <h2>Delegating Coins</h2>
