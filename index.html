@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casper Staking Information</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .logo {
+            max-width: 300px;
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            color: #ff3746;
+        }
+        .section {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .casper-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+        footer a {
+            color: #ff3746;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="assets/CasPer_Logo.png" alt="Casper Logo" class="logo">
+        <h1>Casper Staking Information</h1>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <h2>About Casper</h2>
+            <p>Casper is a proof-of-stake blockchain network optimized for enterprise and developer adoption. It aims to accelerate business and innovation by making blockchain technology more accessible and user-friendly for businesses and developers.</p>
+            <p>Key features of Casper include:</p>
+            <ul>
+                <li>High throughput and low gas fees</li>
+                <li>Upgradeable smart contracts</li>
+                <li>Developer-friendly environment with WebAssembly support</li>
+                <li>Energy-efficient proof-of-stake consensus mechanism</li>
+            </ul>
+            <img src="assets/casper_pic1.png" alt="Casper Network" class="casper-image">
+        </section>
+
+        <section id="delegating" class="section">
+            <h2>Delegating Coins</h2>
+            <p>Delegating your CSPR tokens allows you to participate in network security and earn rewards. Here's how to delegate using the Casper wallet:</p>
+            <ol>
+                <li>Open your Casper Wallet and navigate to the Staking page.</li>
+                <li>Click on the "Delegate" button.</li>
+                <li>Choose a validator from the list or enter a validator's public key.</li>
+                <li>Enter the amount of CSPR you want to delegate.</li>
+                <li>Review the transaction details and confirm.</li>
+                <li>Sign the transaction using your connected wallet.</li>
+            </ol>
+            <p>Note: There is an unbonding period of 7 eras (approximately 14 hours) when you decide to undelegate your tokens.</p>
+        </section>
+
+        <section id="undelegating" class="section">
+            <h2>Undelegating Coins</h2>
+            <p>To undelegate your CSPR tokens:</p>
+            <ol>
+                <li>Open your Casper Wallet and go to the Staking page.</li>
+                <li>Find the validator you've delegated to and click "Undelegate".</li>
+                <li>Enter the amount of CSPR you want to undelegate.</li>
+                <li>Review the transaction details and confirm.</li>
+                <li>Sign the transaction using your connected wallet.</li>
+            </ol>
+            <p>Important: After undelegating, your tokens will be locked for 7 eras before becoming available in your wallet.</p>
+        </section>
+    </main>
+
+    <footer>
+        <a href="https://casper.network/" target="_blank">Official Website</a>
+        <a href="https://docs.casper.network/" target="_blank">Documentation</a>
+        <a href="https://github.com/casper-network" target="_blank">GitHub</a>
+        <a href="https://twitter.com/Casper_Network" target="_blank">Twitter</a>
+    </footer>
+</body>
+</html>
