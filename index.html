@@ -39,9 +39,17 @@
         }
         .casper-image {
             display: block;
-            max-width: 25%;
+            max-width: 12.5%;
+            width: 150px; /* Adjust this value as needed */
             height: auto;
             margin: 30px auto;
+        }
+        .bottom-image {
+            text-align: center;
+            margin-top: 40px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
         }
         footer {
             text-align: center;
@@ -75,6 +83,7 @@
             }
             .casper-image {
                 max-width: 50%;
+                width: auto;
             }
         }
     </style>
@@ -102,7 +111,9 @@
             </ul>
         </section>
 
-        <img src="casper pic1.png" alt="Casper Network" class="casper-image">
+        <div class="bottom-image">
+            <img src="casper pic1.png" alt="Casper Network" class="casper-image">
+        </div>
 
         <section id="delegating" class="section">
             <h2>Delegating Coins</h2>
